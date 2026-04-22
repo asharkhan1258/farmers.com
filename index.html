@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Hero</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold text-primary fs-4" href="tel:22222222">
+      <img src="logo.png" alt="" width="150px">
+    </a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+
+      <!-- Left Menu -->
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+
+        <li class="nav-item">
+          <a href="Insurance.html" class="nav-link">Insurance</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="GetaQuote.html" class="nav-link">Get a Quote</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="Find.html" class="nav-link">Find an Agent</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="Claims.html" class="nav-link">Claims</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="Resources.html" class="nav-link">Resources</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pay.html" class="nav-link">Payments</a>
+        </li>
+
+       
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-section d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+
+         <!-- IMAGE -->
+      <div class="col-lg-6 text-center d-lg-block d-none">
+        <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/burke-transparent-background-cropped-2.webp?width=2000&rmode=min&rsampler=bicubic&format=webp&quality=80" class="hero-img" alt="">
+      </div>
+      <!-- TEXT -->
+      <div class="col-lg-6">
+        <h1 class="hero-title">In your corner when it counts</h1>
+        <p class="hero-sub">
+          Plus, you could save an average of $1,232 when you bundle auto and home.
+          Select the policies you want to get started with.
+        </p>
+
+        <!-- CARDS -->
+        <div class="policy-boxes d-flex flex-wrap gap-3 mt-4">
+
+          <div class="policy-card">
+            <i class="fa fa-car"></i>
+            <p>Auto</p>
+            <span>+</span>
+          </div>
+
+          <div class="policy-card">
+            <i class="fa fa-house"></i>
+            <p>Home</p>
+            <span>+</span>
+          </div>
+
+          <div class="policy-card">
+            <i class="fa fa-chair"></i>
+            <p>Renters</p>
+            <span>+</span>
+          </div>
+
+          <div class="policy-card">
+            <i class="fa fa-building"></i>
+            <p>Condo</p>
+            <span>+</span>
+          </div>
+
+          <div class="policy-card">
+            <i class="fa fa-users"></i>
+            <p>Life</p>
+            <span>+</span>
+          </div>
+
+          <div class="policy-card">
+            <i class="fa fa-store"></i>
+            <p>Business</p>
+            <span>+</span>
+          </div>
+
+        </div>
+
+        <!-- FORM -->
+        <div class="quote-box mt-4 d-sm-flex gap-3">
+          <input type="text" class="form-control zip-input" placeholder="ZIP Code" width="40px">
+          <button class="btn btn-danger px-4 mt-sm-0 mt-4">Get a quote</button>
+        </div>
+
+        <a href="tel:22222222" class="d-inline-block mt-3 text-primary">
+          Retrieve a saved quote
+        </a>
+      </div>
+
+     
+
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-body ">
+  <div class="container">
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card h-100 border-0 shadow-sm p-3 text-center">
+
+          <img src="https://www.farmers.com/content/loyalty-discount-graphic.png?width=1024&rmode=min&rsampler=bicubic&format=webp&quality=80" class="mx-auto mb-3" alt="icon">
+
+          <h4 class="fw-bold">
+            A brand you've trusted for nearly 100 years
+          </h4>
+
+          <p class="mt-2">
+            Choose one of the U.S.'s largest, most financially stable insurance brands
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card h-100 border-0 shadow-sm p-3 text-center">
+
+          <img src="https://www.farmers.com/content/dam/farmers/marketing/digital/aem/images/icons/misc/icon-browse.png?width=1024&rmode=min&rsampler=bicubic&format=webp&quality=80" class="mx-auto mb-3" alt="icon">
+
+          <h4 class="fw-bold">
+            Browse your discount choices
+          </h4>
+
+          <p class="mt-2">
+            Loyalty, safe driving, smart home, and more
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card h-100 border-0 shadow-sm p-3 text-center">
+
+          <img src="https://www.farmers.com/content/dam/farmers/marketing/digital/aem/images/icons/misc/icon-faster-insurance.png?width=1024&rmode=min&rsampler=bicubic&format=webp&quality=80" class="mx-auto mb-3" alt="icon">
+
+          <h4 class="fw-bold">
+            A faster insurance shopping process
+          </h4>
+
+          <p class="mt-2">
+            One phone call, multiple insurance choices. Choose an agent here
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="py-5" style="background:#f6faffff;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold ">
+          The Latest From Farmers
+        </h2>
+      </div>
+    </div>
+
+    <!-- Tiles -->
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="h-100 border-0  text-center p-4">
+
+          <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/faq/btf-car-icon.svg" class="mx-auto mb-3" alt="icon" width="50px" >
+
+          <h5 class="fw-bold">Car Insurance</h5>
+          <p>Switching to Farmers Auto insurance could help you save.</p>
+          <a href="tel:22222222" class="text-primary fw-bold">Learn about Car insurance</a>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="h-100 border-0  text-center p-4">
+
+          <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/faq/btf-home-icon.svg" class="mx-auto mb-3" alt="icon" width="50px" >
+
+          <h5 class="fw-bold">Homeowners Insurance</h5>
+          <p>Quality Home insurance with discounts and benefits.</p>
+          <a href="tel:22222222" class="text-primary fw-bold">Learn about Homeowners insurance</a>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="h-100 border-0  text-center p-4">
+
+          <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/faq/icon-technology.png" class="mx-auto mb-3" alt="icon" width="50px" >
+
+          <h5 class="fw-bold">Device Protection</h5>
+          <p>Coverage for the devices that keep you connected.</p>
+          <a href="tel:22222222" class="text-primary fw-bold">Learn about electronics insurance</a>
+
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="h-100 border-0  text-center p-4">
+
+          <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/faq/btf-browse-icon.svg" class="mx-auto mb-3" alt="icon" width="50px" >
+
+          <h5 class="fw-bold">Browse by State</h5>
+          <p>Find state specific insurance requirements and details.</p>
+          <a href="tel:22222222" class="text-primary fw-bold">Browse insurance by state</a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="py-5 bg-body">
+
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+
+        <h2 class="fw-bold " style="color: #0a3d91;">
+          Report or View Claim Status
+        </h2>
+
+        <p class="mb-0">
+          Get started with <a href="tel:22222222" class="text-decoration-none text-dark fw-semibold">your claim</a> quickly.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="row justify-content-center g-4">
+
+      <!-- View Claim Status -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="text-center">
+
+          <a href="/claims/cmp-landing/"
+             class="btn btn-ji w-100 py-3 fw-bold"
+             data-gtm="Farmers_MainSearch_ViewClaimStatusButton">
+
+            VIEW CLAIM STATUS
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Report Claim -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="text-center">
+
+          <a href="/claims/efnol-landing/"
+             class="btn hello-btn w-100 py-3 fw-bold"
+             data-gtm="Farmers_MainSearch_ReportAClaimButton">
+
+            REPORT A CLAIM
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="py-5" style="background:#f6faff;">
+
+  <div class="container">
+
+    <div class="row align-items-center g-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-7 col-md-7 col-12">
+
+        <h2 class="fw-bold " style="color: #0a3d91;">
+          Farmers Mobile App
+        </h2>
+
+        <p class="mt-3">
+          Experience the redesigned Farmers® Mobile App. It’s an easy and fast way to manage your insurance policies — anytime, anywhere — from the convenience of your mobile device.
+        </p>
+
+        <p>
+          <a href="tel:22222222" class="fw-semibold text-decoration-none">
+            Learn more about the Farmers Mobile App
+          </a>
+        </p>
+
+        <!-- Store Buttons -->
+        <div class="row g-3 mt-3 align-items-center">
+
+          <div class="col-auto">
+            <a href="tel:22222222">
+              <img src="https://getsby.com/wp-content/uploads/2025/03/google-play-store-badge.png" alt="Google Play" width="130px">
+            </a>
+          </div>
+
+          <div class="col-auto">
+            <a href="tel:22222222">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVzM8cuzPOiB9J_HXOys4ShaUpNNCpAqxAw&s" alt="App Store" width="130px">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-5 col-md-5 col-12 text-center">
+
+        <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/desktop-homepage_mobile.webp?width=2000&rmode=min&rsampler=bicubic&format=webp&quality=80"
+             class="img-fluid"
+             alt="Mobile App">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="py-5 bg-body">
+
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+
+        <h2 class="fw-bold " style="color: #0a3d91;">
+          Find a Local Agent 
+        </h2>
+
+        <p class="mb-0">
+          For coverage options and personalized service, find an experienced Farmers agent in your area.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="row justify-content-center g-4">
+
+      <!-- View Claim Status -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="text-center">
+
+          <a href="/claims/cmp-landing/"
+             class="btn btn-ji w-100 py-3 fw-bold"
+             data-gtm="Farmers_MainSearch_ViewClaimStatusButton">
+
+            VIEW CLAIM STATUS
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Report Claim -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="text-center">
+
+          <a href="/claims/efnol-landing/"
+             class="btn hello-btn w-100 py-3 fw-bold"
+             data-gtm="Farmers_MainSearch_ReportAClaimButton">
+                SEARCH
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="py-5 ji-1" >
+  <div class="container">
+    <div class="row mb-4 mt-5">
+      <div class="col-12 text-start">
+
+        <h2 class="fw-bold " style="color: #0a3d91;">
+          Learn From Experience
+        </h2>
+
+        <p class="mb-0">
+          Stories and information to help you plan, prepare and protect what matters most.
+        </p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row g-4 mt-4">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-8 col-md-8 col-12">
+
+        <!-- Article 1 -->
+        <div class="row align-items-center mb-4">
+          <div class="col-lg-7 col-md-7 col-12">
+            <p>
+              <a href="tel:22222222" class="fw-bold text-decoration-none main-heading">
+                What is a Certificate of Insurance (COI) and Do I Need One?
+              </a>
+            </p>
+            <p>
+              Own a small business and want to make sure you’re protected? We spoke with one of our agents to learn about how a certificate of insurance can really set you apart.
+            </p>
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-12">
+            <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/lfecertificate-600x320-1-1.jpg?width=2000&rmode=min&rsampler=bicubic&format=webp&quality=80" class="img-fluid rounded" alt="">
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Article 2 -->
+        <div class="row align-items-center mb-4">
+          <div class="col-lg-7 col-md-7 col-12">
+            <p>
+              <a href="tel:22222222" class="fw-bold text-decoration-none main-heading">
+                Reasons to Buy Renters Insurance
+              </a>
+            </p>
+            <p>
+              You don’t own too many things, you are just renting a small apartment, and the landlord already has insurance on the property. Do you really need renters insurance? Learn what one of our Agents has to say about the value of protecting your belongings with renters insurance.
+            </p>
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-12">
+            <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/qa_reasons-to-buy-renters-insurance_455x232-1.webp?width=2000&rmode=min&rsampler=bicubic&format=webp&quality=80" class="img-fluid rounded" alt="">
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Signal -->
+        <div class="mb-4">
+          <h5 class="main-heading">
+            <a href="tel:22222222" class="text-decoration-none main-heading">Signal</a><sup>®</sup>
+          </h5>
+          <p>
+            You could earn an initial discount for using Signal and focusing on your driving as a Farmers auto customer.
+          </p>
+        </div>
+
+        <hr>
+
+        <!-- Signal Details -->
+        <div class="row align-items-center mb-4">
+          <div class="col-lg-7 col-md-7 col-12">
+
+            <p>
+              <a href="tel:22222222" class="fw-bold text-decoration-none main-heading">
+                Enroll. Download. Drive
+              </a>
+            </p>
+
+            <p>
+              Talk to your agent to enroll in the Signal program where you could earn an initial discount for being a focused driver.
+            </p>
+
+            <p class="fw-bold main-heading">More rewards!</p>
+            <p>
+              Using Signal can also earn you a chance to win prizes. Farmers gives away up to $100 in prizes every month<a href="tel:22222222">***</a>.
+            </p>
+
+            <p class="fw-bold main-heading">Drivers under 25?</p>
+            <p>
+              You could earn even more savings by having your drivers under 25 enroll and use Signal. Reinforcing good habits is easy with Signal<a href="tel:22222222">**</a>.
+            </p>
+
+            <p class="small-text">
+              <a href="tel:22222222">
+                Signal® is not available in Hawaii, New York, & South Carolina. The Signal discount is not available in California.
+              </a>
+            </p>
+
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-12">
+            <img src="https://www.farmers.com/siteassets/001-shared-blocks-and-media/homepage/signalman_360x236.jpg?width=2000&rmode=min&rsampler=bicubic&format=webp&quality=80" class="img-fluid rounded" alt="">
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR -->
+      <div class="col-lg-4 col-md-4 col-12">
+
+        <div class="p-4 bg-light rounded shadow-sm">
+
+          <p>
+            <strong>Q:</strong> I'm about to buy my first home and figuring out the insurance coverage I want. I have lot of jewelry and collectibles. Are my valuables covered under a homeowners policy?
+          </p>
+
+          <p>
+            <strong>A:</strong> The short answer to your question is yes. However, one of the biggest mistakes consumers can make is to assume all your valuables will be covered automatically. You may have to add some items separately to your policy.
+          </p>
+
+          <p>
+            <i>- Douglas Bolerjack, a Farmers Insurance<sup>®</sup> agent based in Columbia, Missouri.</i>
+          </p>
+
+          <p>
+            <i>
+              <a href="tel:22222222" class="main-heading text-decoration-none">
+                Find the answer and read more about coverage for valuables
+              </a>
+            </i>
+          </p>
+
+        </div>
+
+      </div>
+
+      <p><span class="small-text"><sup>1</sup><span>Based on average nationwide annual savings of new customers surveyed, excluding HI, SC &amp; Farmers GroupSelect<sup>®</sup>, from 9/1/24 to 8/31/25 who switched their Home and Auto insurance policies to Farmers<sup>®</sup> branded policies, responded to the survey, and realized savings. Potential savings vary by customer and may vary by state and product.</span></span></p>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container-lg">
+
+    <div class="row g-4">
+
+      <!-- ABOUT -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <h5 class="footer-heading">About</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="tel:22222222">About Us</a></li>
+          <li><a href="tel:22222222">Inclusion & Belonging</a></li>
+          <li><a href="tel:22222222">Corporate Citizenship</a></li>
+          <li><a href="tel:22222222">Newsroom</a></li>
+          <li><a href="tel:22222222">Customer FAQs</a></li>
+          <li><a href="tel:22222222" class="text-primary fw-bold">We are hiring!</a></li>
+          <li><a href="tel:22222222">Temporary Positions</a></li>
+          <li><a href="tel:22222222">Customer Community Sweepstakes</a></li>
+        </ul>
+      </div>
+
+      <!-- QUICK LINKS -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <h5 class="footer-heading">Quick Service Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="tel:22222222">Get a Quote</a></li>
+          <li><a href="tel:22222222">Find an Agent</a></li>
+          <li><a href="tel:22222222">Report a claim</a></li>
+          <li><a href="tel:22222222">Forgot username/password</a></li>
+          <li><a href="tel:22222222">Make a payment</a></li>
+          <li><a href="tel:22222222">Register for an account</a></li>
+          <li><a href="tel:22222222">Roadside assistance</a></li>
+          <li><a href="tel:22222222">View Auto ID card</a></li>
+          <li><a href="tel:22222222">View Commercial Auto ID card</a></li>
+          <li><a href="tel:22222222">Discounts & Savings</a></li>
+        </ul>
+      </div>
+
+      <!-- INSURANCE -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <h5 class="footer-heading">Insurance</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="tel:22222222">Car Insurance</a></li>
+          <li><a href="tel:22222222">Homeowners Insurance</a></li>
+          <li><a href="tel:22222222">Home & Auto Bundling</a></li>
+          <li><a href="tel:22222222">Renters Insurance</a></li>
+          <li><a href="tel:22222222">Condo Insurance</a></li>
+          <li><a href="tel:22222222">Umbrella Insurance</a></li>
+          <li><a href="tel:22222222">Life Insurance</a></li>
+          <li><a href="tel:22222222">Business Insurance</a></li>
+          <li><a href="tel:22222222">Insurance by state</a></li>
+          <li><a href="tel:22222222">Insurance Questions</a></li>
+          <li><a href="tel:22222222">All Insurance Products</a></li>
+        </ul>
+      </div>
+
+      <!-- DISCOVER MORE -->
+      <div class="col-lg-3 col-md-6 col-12">
+        <h5 class="footer-heading">Discover more</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="tel:22222222">Workers' Compensation Insurance</a></li>
+          <li><a href="tel:22222222">Pet insurance for your dogs and cats</a></li>
+          <li><a href="tel:22222222">Term Life Insurance</a></li>
+          <li><a href="tel:22222222">Business General Liability Insurance</a></li>
+          <li><a href="tel:22222222">Cheap car insurance – is it worth the risk?</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="footernav__blue-section pt-4 pt-md-5 pb-4 py-5" style="background:#0a3d91; color:#fff;">
+    <div class="container-lg text-center py-5">
+
+        <!-- LINKS -->
+        <div class="row justify-content-center mb-3">
+            <div class="col-auto">
+                <ul class="list-inline mb-0">
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Sitemap</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Careers</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Contact Us</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Digital Accessibility</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Terms of Use</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Privacy Center</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Do Not Sell/Share My Personal Information</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" class="text-white text-decoration-none">Our Companies</a>
+                    </li>
+
+                    <li class="list-inline-item mx-2">
+                        <a href="tel:22222222" onclick="javascript:OneTrust.ToggleInfoDisplay();return false;" class="text-white text-decoration-none">
+                            Your Privacy Choices
+                            <img src="logo.png" width="29" height="14" alt="">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="row justify-content-center mb-3">
+            <div class="col-auto">
+                <div class="d-flex flex-wrap justify-content-center">
+
+                    <a href="tel:22222222" class="text-white mx-3 fs-5"><i class="bi bi-facebook"></i></a>
+                    <a href="tel:22222222" class="text-white mx-3 fs-5"><i class="bi bi-twitter-x"></i></a>
+                    <a href="tel:22222222" class="text-white mx-3 fs-5"><i class="bi bi-instagram"></i></a>
+                    <a href="tel:22222222" class="text-white mx-3 fs-5"><i class="bi bi-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO -->
+        <div class="row justify-content-center mb-3">
+            <div class="col-auto">
+                <a href="tel:22222222">
+                    <img src="logo.png" width="100" height="54" alt="logo">
+                </a>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p class="small mb-0 text-white">© 2026 Farmers</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="footernav__notes-section pt-3 pb-5 mt-4" style="background-color:#f8f9fa;">
+    <div class="container-lg">
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="rich-text" style="font-size:18px; line-height:1.7; color:#333;">
+
+                    <p>Advertisement produced on behalf of the following specific insurers and seeking to obtain business for insurance underwritten by Farmers Insurance Exchange, Fire Insurance Exchange, Truck Insurance Exchange, Mid-Century Insurance Company, Farmers Insurance Company of Washington (Bellevue, WA) or affiliates. In TX: insurance is underwritten by Farmers Insurance Exchange, Fire Insurance Exchange, Truck Insurance Exchange, Mid-Century Insurance Company, Farmers Texas County Mutual Insurance Company, Mid-Century Insurance Company of Texas or Texas Farmers Insurance Company. In NY: insurance is underwritten by Farmers Insurance Exchange, Truck Insurance Exchange, Mid-Century Insurance Company or Farmers New Century Insurance Company. Home office, Los Angeles, CA.</p>
+
+                    <p>Farmers GroupSelect<sup>SM</sup> products are underwritten by: Farmers Property and Casualty Insurance Company (a MA licensee), Farmers Casualty Insurance Company, Farmers Group Property and Casualty Insurance Company (CA # 2460-4, Warwick, RI), Farmers Direct Property and Casualty Insurance Company (CA # 1669-1, Warwick, RI), Farmers Lloyds Insurance Company of Texas, Economy Preferred Insurance Company, or Economy Fire & Casualty Insurance Company, all with administrative home offices in Warwick, RI.</p>
+
+                    <p>Each of following insurers who transact business in California are domiciled in California and have their principal place of business in Los Angeles, CA: Farmers Insurance Exchange (#R 201), Fire Insurance Exchange (#1267-4), Truck Insurance Exchange (#1199-9), Mid-Century Insurance Company (#1428-2).</p>
+
+                    <p id="remove-financial">Life insurance issued by Farmers New World Life Insurance Company, a Washington domestic company: 3120 139th Ave. SE, Ste. 300 Bellevue, WA 98005 (CA#: 0378-0). Products and features, including same-day coverage, may not be available in all states and may vary by state. Restrictions, exclusions, limits, and conditions apply. Farmers New World Life is not licensed and does not solicit or sell in the state of New York.</p>
+
+                    <p>
+                        Securities offered through Farmers Financial Solutions, LLC, (In NY: Farmers Financial Solutions and Insurance Agency), 30700 Russell Ranch Road, Office #214, Westlake Village, CA 91362. Member. Member 
+                        <a href="tel:22222222" class="text-primary text-decoration-underline">FINRA</a> & 
+                        <a href="tel:22222222" class="text-primary text-decoration-underline">SIPC</a>
+                    </p>
+
+                    <p>
+                        Each insurer has sole financial responsibility for its own insurance. List of all insurers and states where licensed at farmers.com/companies/state/. Not all insurers are authorized in all states. Not all products, coverages, features and discounts are available in every state and may vary by state. Restrictions, exclusions, limits, and conditions apply. See agent for details.
+                        <br><br>
+                        Farmers Asset Management, LLC ("FAM") is a state registered investment adviser. All advisory services are provided through FAM and only offered to prospective clients where FAM and its representatives are property licensed or exempt from licensure. A copy of FAM's current written disclosure documents discussing our services, fees, and other important information is available upon request or at 
+                        <a href="tel:22222222" class="text-primary text-decoration-underline">https://www.adviserinfo.sec.gov</a>. 
+                        The information on the FAM's webpage should not be considered investment or financial advice, or a recommendation to buy or sell any securities. No investment and/or financial planning decision should be made based solely on the information contained herein. Investing in securities involves risk, including the possibility of loss of principal amount invested. Different types of investments involve varying degrees of risk that investors should be aware of prior to investing.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>

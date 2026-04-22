@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero-section {
+  background: #e9f0fb;
+  padding: 60px 0;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0a3d91;
+}
+
+.hero-sub {
+  color: #333;
+  margin-top: 15px;
+}
+
+/* IMAGE */
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* POLICY CARDS */
+.policy-card {
+  width: 120px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  position: relative;
+  cursor: pointer;
+}
+
+.policy-card i {
+  font-size: 22px;
+  color: #0a3d91;
+  margin-bottom: 5px;
+}
+
+.policy-card p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.policy-card span {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  font-size: 18px;
+  color: #0a3d91;
+}
+
+/* ZIP */
+.zip-input {
+  height: 45px;
+}
+.card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.card {
+  border-radius: 14px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-ji{
+	border: 2px solid #0a3d91;
+	color: #0a3d91;
+}
+.hello-btn{
+	background: linear-gradient(to bottom, #158fef 0%, #158fef 50%, #006bc2 50%, #006bc2 100%);
+	color: white;
+}
+.main-heading {
+  color: #0a3d91;
+  font-size: 20px;
+}
+
+hr {
+  border-color: #dee2e6;
+}
+
+img {
+  transition: 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.small-text {
+  font-size: 12px;
+}
+.ji-1 a{
+	font-size: 20px;
+}
+.footer-heading {
+  color: #0a3d91;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #0a3d91;
+  padding-left: 5px;
+}
